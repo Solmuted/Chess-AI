@@ -1,3 +1,7 @@
+<img width="2560" height="1440" alt="Прогресс - Opera 10 04 2026 15_45_12" src="https://github.com/user-attachments/assets/272d87a4-ecc0-453f-b95e-e944b9f97822" />
+<img width="2560" height="1440" alt="Прогресс - Opera 10 04 2026 15_44_47" src="https://github.com/user-attachments/assets/def2af14-a2fc-497b-ad2b-c8d576df7fbc" />
+<img width="2560" height="1440" alt="Дашборд - Opera 10 04 2026 15_44_06" src="https://github.com/user-attachments/assets/f352bc4f-4da0-4eb3-b474-4f2d7337721d" />
+<img width="2560" height="1440" alt="Дашборд - Opera 10 04 2026 15_44_00" src="https://github.com/user-attachments/assets/807347a6-6b15-4935-8fa3-1f5ca06968b7" />
 # ♟️ Chess-AI
 
 **Chess-AI** is a web application for analyzing chess games using artificial intelligence (Groq API).  
