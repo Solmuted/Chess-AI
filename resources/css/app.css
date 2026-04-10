@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f8f9fa; color: #1a1a2e; }
+
+.navbar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1rem 2rem; background: #1a1a2e; color: white;
+}
+.navbar-brand { color: white; text-decoration: none; font-size: 1.4rem; font-weight: 700; }
+.navbar-links { display: flex; gap: 1.5rem; align-items: center; }
+.navbar-links a { color: #cbd5e1; text-decoration: none; }
+.navbar-links a:hover { color: white; }
+.btn-link { background: none; border: none; color: #cbd5e1; cursor: pointer; font-size: 1rem; }
+
+.main-content { min-height: calc(100vh - 64px); padding: 2rem; }
+.container { max-width: 1100px; margin: 0 auto; }
+
+.alert { padding: 1rem 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; }
+.alert-success { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; }
+.alert-info    { background: #dbeafe; color: #1e40af; border: 1px solid #93c5fd; }
+
+.user-stats { display: flex; gap: 1rem; margin: 1.5rem 0; flex-wrap: wrap; }
+.stat-card {
+    background: white; border-radius: 12px; padding: 1.25rem 1.75rem;
+    border: 1px solid #e2e8f0; text-align: center; min-width: 120px;
+}
+.stat-label { display: block; font-size: 0.75rem; color: #64748b; margin-bottom: 4px; }
+.stat-value { display: block; font-size: 1.75rem; font-weight: 700; color: #1a1a2e; }
+
+.dashboard-header h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+.dashboard-actions { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 1rem; margin: 2rem 0; }
+.action-card {
+    background: white; border: 1px solid #e2e8f0; border-radius: 12px;
+    padding: 1.5rem; text-decoration: none; color: inherit;
+    display: flex; flex-direction: column; gap: 4px; transition: box-shadow 0.2s;
+}
+.action-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.action-icon { font-size: 2rem; }
+.action-title { font-weight: 600; font-size: 1rem; color: #1a1a2e; }
+.action-desc { font-size: 0.85rem; color: #64748b; }
+
+.lessons-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 1rem; margin-top: 1rem; }
+.lesson-card {
+    background: white; border: 1px solid #e2e8f0; border-radius: 12px;
+    padding: 1.25rem; text-decoration: none; color: inherit;
+}
+.lesson-level { font-size: 0.75rem; color: #4f46e5; font-weight: 600; }
+.lesson-card h3 { margin: 0.5rem 0; }
+.lesson-card p { font-size: 0.85rem; color: #64748b; }
+
+.diagnostic-form { max-width: 700px; }
+.question-card { background: white; border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; border: 1px solid #e2e8f0; }
+.question-text { font-weight: 600; margin-bottom: 1rem; }
+.options { display: flex; flex-direction: column; gap: 0.5rem; }
+.option-label { display: flex; align-items: center; gap: 0.75rem; cursor: pointer; padding: 0.5rem; border-radius: 8px; }
+.option-label:hover { background: #f1f5f9; }
+.subtitle { color: #64748b; margin-bottom: 2rem; }
+
+.btn-primary {
+    background: #4f46e5; color: white; border: none; padding: 0.875rem 2rem;
+    border-radius: 8px; font-size: 1rem; cursor: pointer; font-weight: 600;
+    margin-top: 1rem; width: 100%;
+}
+.btn-primary:hover { background: #4338ca; }
+.empty-state { text-align: center; color: #64748b; padding: 3rem; }
